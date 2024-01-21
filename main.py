@@ -2172,7 +2172,7 @@ def get_busy_hours_from_database(master_id):
     return busy_hours
 
 
-123
+
 
 
 @dp.callback_query_handler(lambda callback_query: callback_query.data.startswith('choose_service:'))
