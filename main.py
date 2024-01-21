@@ -2626,8 +2626,6 @@ async def background_task2():
             cursor.execute("DELETE FROM Record WHERE ID = ?", (record_id,))
             conn.commit()
 
-        # Пауза перед следующей проверкой
-        await asyncio.sleep(40)  # Пауза в 60 секунд
 
 
 
